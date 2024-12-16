@@ -13,6 +13,36 @@ DeepSORT is a deep learning-based object tracking system designed for real-time 
 *   WIP: **Re-Identification**: When an object re-enters the scene, DeepSORT employs a re-identification algorithm based on Siamese networks and a cosine similarity metric to identify it as the same object.
 *   **Multiple Object Tracking**: The system can track multiple objects simultaneously.
 
+## Configuration
+-----------------
+
+The DeepSORT system can be configured through a JSON configuration file (`config.json` by default). The following parameters can be adjusted:
+
+```json
+{
+    "tracker": {
+        "max_lost": 50, // Maximum number of frames an object can be lost before being considered as permanently lost (default: 50)
+        "iou_threshold": 0.01 // IOU threshold for matching detections to tracklets (default: 0.01)
+    },
+    "model": {
+        "confidence_threshold": 0.6 // Confidence threshold for object detection (default: 0.6)
+    },
+    "kalman_filter": {
+        "state_dim": 4, // State dimensionality (default: 4) - typically used to model position and velocity
+        "time_step": 1.0, // Time step of the Kalman filter (default: 1.0) - in seconds
+        "position_std": 0.05, // Standard deviation for position uncertainty (default: 0.05)
+        "velocity_std": 0.00625, // Standard deviation for velocity uncertainty (default: 0.00625)
+        "covariance_scaling": {
+            "position": 2, // Scaling factor for position covariance (default: 2)
+            "velocity": 10 // Scaling factor for velocity covariance (default: 10)
+        },
+        "innovation_noise_factor": {
+            "position": 0.1, // Noise factor for position innovation (default: 0.1)
+            "velocity": 0.01 // Noise factor for velocity innovation (default: 0.01)
+        }
+    }
+}
+
 ## Usage
 ---------
 
