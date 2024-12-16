@@ -1,0 +1,23 @@
+{
+    "tracker": {
+        "max_lost": 50,
+        "iou_threshold": 0.01
+    },
+    "model": {
+        "confidence_threshold": 0.6
+    },
+    "kalman_filter": {
+        "state_dim": 4,
+        "time_step": 1.0,
+        "position_std": 0.05,
+        "velocity_std": 0.00625,
+        "covariance_scaling": {
+            "position": 2,
+            "velocity": 10
+        },
+        "innovation_noise_factor": {
+            "position": 0.1,
+            "velocity": 0.01
+        }
+    }
+}  
