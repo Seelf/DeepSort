@@ -2,6 +2,8 @@
 
 ![alt text](https://wnit.uz.zgora.pl/thumb/VHVEXDQ4XOwMUCBwNHw4LFh9JXhgYBgRGRgMNHw5RXkQBDggWFT1FEQMHAxIIN0szHwAEGBcvQwpIABAHCQYXCQMKKgcYRRkJQhEDAxgSTxoIUUBJABoIA0VdRgQPBAtKGRsLUUBJFB4FGQQJECwFD0RJRldQV0ZfRA0LChRJVlEcB0ZASBAOBBABAwcKFhZEXUUXHw8FDxZRR04ABREBTlBRAkcTC11aUkYcU1ZVRg4/wiea.jpg)
 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&labelColor=black)](https://github.com/your-repo-url)
+
 
 ## Overview
 ------------
