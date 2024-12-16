@@ -41,7 +41,7 @@ The DeepSORT system can be configured through a JSON configuration file (`config
             "velocity": 0.01 // Noise factor for velocity innovation (default: 0.01)
         }
     }
-}
+}```
 
 ## Usage
 ---------
