@@ -1,3 +1,9 @@
+<p align=”center”>
+
+<img width=”200" height=”200" src=”https://wnit.uz.zgora.pl/thumb/VHVEXDQ4XOwMUCBwNHw4LFh9JXhgYBgRGRgMNHw5RXkQBDggWFT1FEQMHAxIIN0szHwAEGBcvQwpIABAHCQYXCQMKKgcYRRkJQhEDAxgSTxoIUUBJABoIA0VdRgQPBAtKGRsLUUBJFB4FGQQJECwFD0RJRldQV0ZfRA0LChRJVlEcB0ZASBAOBBABAwcKFhZEXUUXHw8FDxZRR04ABREBTlBRAkcTC11aUkYcU1ZVRg4/wiea.jpg" alt=”my banner”>
+
+</p>
+
 # DeepSORT - A Deep Learning-Based Object Tracking System
 
 ## Overview
