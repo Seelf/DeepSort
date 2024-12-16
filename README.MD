@@ -75,21 +75,15 @@ For questions, suggestions, or collaborations, please reach out to us at <your e
 ```bash
 DeepSort/
 |---- README.md
-|---- LICENSE
 |---- requirements.txt
-|---- conda.yml (optional)
-|---- data/
-|       |---- videos/
-|       |---- bounding_box_data.csv
+|---- config_loader.py
+|---- config.json
+|---- main.py
+|---- __init__.py
 |---- src/
-|       |---- main.py
-|       |---- model.py
+|       |---- detector.py
+|       |---- iou_match.py
+|       |---- kalman_filter.py
+|       |---- main_tracker.py
+|       |---- object_tracker.py
 |       |---- utils.py
-|       |---- yolo/
-|              |---- yolov3.cfg
-|              |---- yolov3.weights
-|---- models/
-|       |---- siamese_net.pth
-|       |---- kalman_filter.pth
-|---- results/
-|       |---- video_tracking_results.csv
