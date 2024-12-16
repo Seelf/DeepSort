@@ -104,6 +104,8 @@ For questions, suggestions, or collaborations, please reach out to us at d.konar
 
 Author: inż. Dawid Konarczak
 
+Some inspiration and data taken from: https://github.com/nwojke/deep_sort
+
 ## Directory Structure
 ------------------------
 
