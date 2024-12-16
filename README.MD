@@ -1,11 +1,3 @@
-Before running script run this command in project main directory: `export QT_QPA_PLATFORM=offscreen`
-
-DO NOT touch `config_loader.py` or `config.json`, you can only modify values of each parameter in `config.json`
-
-To run this project simply clone this repo `git clone https://github.com/Seelf/DeepSort` 
-and the run `python -m <folder_with_project_files_name>.main`
-
-
 # DeepSORT - A Deep Learning-Based Object Tracking System
 
 ## Overview
@@ -24,6 +16,12 @@ DeepSORT is a deep learning-based object tracking system designed for real-time 
 ## Usage
 ---------
 
+### Before you start
+
+Before running script run this command in project main directory: `export QT_QPA_PLATFORM=offscreen`
+
+DO NOT touch `config_loader.py` or `config.json`, you can only modify values of each parameter in `config.json`
+
 ### Installation
 
 1.  Clone the repository: `git clone https://github.com/Seelf/DeepSort.git`
@@ -34,7 +32,9 @@ DeepSORT is a deep learning-based object tracking system designed for real-time 
 ### Running the Code
 
 1.  Prepare your video input (e.g., a CSV file containing bounding box coordinates)
-2.  Run the DeepSORT tracker using Python: `python main.py --video_file <input_video_file>`
+2.  Run `python -m <folder_with_project_files_name>.main`
+3.  Program will ask for path to video to analyze
+4.  Program will save analyzed video in the same place as input video with extension '_output.avi'
 
 ## Requirements
 -------------
