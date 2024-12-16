@@ -100,7 +100,9 @@ DeepSORT is released under the MIT License. Please see [LICENSE](./LICENSE) for 
 ## Contact
 ------------
 
-For questions, suggestions, or collaborations, please reach out to us at <your email address>.
+For questions, suggestions, or collaborations, please reach out to us at d.konarczak@ck.uz.zgora.pl.
+
+Author: inż. Dawid Konarczak
 
 ## Directory Structure
 ------------------------
